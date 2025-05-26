@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Details</title>
+    <style>
+      
+       
+        .container-order-det {
+            text-align: center;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            width: 90%;
+            max-width: 700px;
+            margin: 20px auto;
+        }
+        .user-details-check {
+            text-align: left;
+            margin-bottom: 20px;
+            padding: 20px;
+            border: 1px solid #d8d8d8;
+            border-radius: 8px;
+        }
+        .user-details-check h2 {
+            font-size: 16px;
+            margin: 0 0 10px;
+        }
+        .user-details-check p {
+            margin: 5px 0;
+            font-size: 14px;
+            color: #333;
+        }
+        .status {
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+            font-size: 14px;
+            color: #28a745;
+        }
+        .status .checkmark {
+            width: 16px;
+            height: 16px;
+            background-color: #28a745;
+            border-radius: 50%;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            color: #fff;
+            margin-right: 5px;
+        }
+        .success-message {
+            text-align: center;
+            padding: 20px;
+        }
+        .success-message .icon {
+            font-size: 50px;
+            color: #28a745;
+            background-color: #e6f4ea;
+            border-radius: 50%;
+            width: 80px;
+            height: 80px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 10px;
+        }
+        .success-message h2 {
+            font-size: 18px;
+            color: #28a745;
+            margin: 0 0 10px;
+        }
+        .success-message p {
+            font-size: 14px;
+            color: #333;
+        }
+        .ack-number {
+            font-size: 24px;
+            font-weight: bold;
+            color: #333;
+            margin-top: 10px;
+        }
+        .download-btn {
+            width: 100%;
+            background-color: #c4c4c4;
+            color: #fff;
+            padding: 15px;
+            text-align: center;
+            font-size: 16px;
+            border: none;
+            cursor: pointer;
+            margin-top:20px;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+   
+    <div class="container-order-det">
+        <div>
+            <h1>Order Details</h1>
+        </div>
+        <div class="user-details-check">
+            <h2>GAURAV SRIVASTAVA</h2>
+            <p>PAN NO.: CAPBS0051H</p>
+            <p>MOB NO.: 9716360435</p>
+            <div class="status">
+                <span class="checkmark">&check;</span>
+                E-Filed
+            </div>
+        </div>
+        <div class="success-message">
+            <div class="icon">&check;</div>
+            <h2>E-Filed Successfully!</h2>
+            <p>Your return is successfully filed, your Acknowledgement Number is:</p>
+            <div class="ack-number">3645555</div>
+        </div>
+        <button class="download-btn">Download Receipt</button>
+    </div>
+   
+</body>
+</html>
